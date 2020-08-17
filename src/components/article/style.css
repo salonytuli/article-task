@@ -1,0 +1,100 @@
+.main-article {
+    margin-top: 25px;
+}
+.main-article .grid .article-row {
+    flex-direction: row;
+}
+.main-article .grid .article-row .article-list {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.main-article .article-card {
+    width: 100%;
+    flex-direction: row;
+    border-radius: 0;
+    overflow: hidden;
+}
+.main-article .article-card:hover {
+    box-shadow: -1px 3px 10px 3px rgba(119, 119, 119, 0.5);
+}
+.main-article .article-card .image {
+    flex: 50%;
+    max-width: 50%;
+    height: 280px;
+    border-radius: 0 !important;
+}
+.main-article .article-card .content {
+    flex: 50%;
+    max-width: 50%;
+    border: none;
+    border-radius: 0 !important;
+    padding: 20px;
+}
+.main-article .grid .row .article-list {
+    margin-bottom: 28px;
+}
+.main-article .article-list:nth-child(2n+2) .article-card {
+    flex-direction: row-reverse;
+}
+.main-article .article-card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-article .article-list:nth-child(2n+2) .article-card .content {
+    text-align: right;
+}
+
+.main-article .article-card .content .header {
+    color: #3A3F44;
+}
+
+.main-article .article-card .content .show-more-btn {
+    margin-top: 15px;
+    background-color: #3A3F44;
+    color: #ffffff;
+    border-radius: 0;
+    border-left: 4px solid #25292d;
+}
+.main-article .article-card .content .show-more-btn:hover,
+.main-article .article-card .content .show-more-btn:focus {
+    background-color: #25292d;
+}
+
+.main-article .article-card .description {
+    max-height: 140px;
+    overflow-y: auto;
+}
+
+.main-article .article-card .description::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-article .grid .article-row .article-list {
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-article .grid .article-row .article-list {
+        margin-bottom: 20px;
+    }
+    .main-article .article-card {
+        flex-direction: column;
+    }
+    .main-article .article-card .image,
+    .main-article .article-card .content {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .main-article .article-list:nth-child(2n+2) .article-card {
+        flex-direction: column;
+    }
+    .main-article .article-list:nth-child(2n+2) .article-card .content {
+        text-align: left;
+    }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Mr. Brad Gibson",
+    "email": "brad.gibson@example.com",
+    "dob": "1993-07-20",
+    "phone": "011-962-7516",
+    "address": "9278 new road, kilcoole, waterford - 93027",
+    "gender": "Male",
+    "image":"https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Ms. Jenny Cruz",
+    "email": "jenny.cruz@example.com",
+    "dob": "1957-10-13",
+    "phone": "0119095 953 2423",
+    "address":"The Crescent, Armagh, Cleveland - F14 1UJ",
+    "gender": "Female",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Mr. Evren Huang",
+    "email": "evren.huang@example.com",
+    "dob": "1974-04-29",
+    "phone": "(703)-970-3078",
+    "address":"Noord-Brabant, Macharen, Noord-Brabant - 25417",
+    "gender": "Male",
+    "image": "https://randomuser.me/api/portraits/men/57.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Mrs. Gilda Schaller",
+    "email": "gilda.schaller@example.com",
+    "dob": "1990-11-08",
+    "phone": "0926-4129523",
+    "address":"Amselweg, Bassum, Brandenburg - 71727",
+    "gender": "Female",
+    "image": "https://randomuser.me/api/portraits/women/48.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Mr. Tjomme, Hoppenbrouwer",
+    "email": "tjomme.hoppenbrouwer@example.com",
+    "dob": "1946-07-20",
+    "phone": "(418)-005-8580",
+    "address":"Calfvense Bosloop, Acquoy, Friesland - 61741",
+    "gender": "Male",
+    "image": "https://randomuser.me/api/portraits/men/43.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Ms. Guro Tjemsland",
+    "email": "guro.tjemsland@example.com",
+    "dob": "1944-09-05",
+    "phone": "50615571",
+    "address":"Revierstredet, Nærbø, Finnmark - Finnmárku - 5055",
+    "gender": "Female",
+    "image":"https://randomuser.me/api/portraits/women/39.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Ms. Ava Taylor",
+    "email": "ava.taylor@example.com",
+    "dob": "1970-12-23",
+    "phone": "153-198-5798",
+    "address":"Frederick Ave, Waterloo, Yukon - A2H 1J1",
+    "gender": "Female",
+    "image": "https://randomuser.me/api/portraits/women/17.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Mr. Skip Camp",
+    "email": "skip.camp@example.com",
+    "dob": "1953-09-23",
+    "phone": "(530)-974-9140",
+    "address":"Conradistrjitte, Broekhuizen Dr, Noord-Holland - 45814",
+    "gender": "Male",
+    "image": "https://randomuser.me/api/portraits/men/54.jpg"
+  }
+]

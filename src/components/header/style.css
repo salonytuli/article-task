@@ -1,0 +1,27 @@
+.top-header {
+    background-color: #3A3F44;
+}
+.top-header .header-row {
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header h2 {
+ color: #ffffff;
+}
+.top-menu-list {
+    justify-content: flex-end;
+}
+.menu-btn {
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.menu-btn:hover,
+.menu-btn:active {
+    color: #ffffff;
+    background: #25292d;
+}
+

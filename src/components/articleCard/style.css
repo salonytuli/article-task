@@ -1,0 +1,8 @@
+.ui .button{
+    background-color: #13b1ab;
+    color: #ffffff;
+}
+.ui .button:hover{
+    background-color: #13928c;
+    color: #ffffff;
+}

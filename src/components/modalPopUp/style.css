@@ -1,0 +1,27 @@
+.custom-modal.modal .close {
+    top: 12px;
+    right: 12px;
+    color: #000;
+}
+
+.custom-modal.modal .header {
+    color: #3A3F44;
+}
+
+.custom-modal .content .image img {
+    border: 1px solid #989898;
+    width: 100%;
+}
+
+.custom-modal .description span {
+    font-size: 14px;
+    color: #3A3F44;
+    font-weight: bold;
+}
+
+.custom-modal .description label {
+    font-size: 14px;
+    color: #3A3F44;
+    margin-left: 5px;
+}
+
